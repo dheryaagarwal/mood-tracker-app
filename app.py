@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import gspread # type: ignore
-from oauth2client.service_account import ServiceAccountCredentials # type: ignore
+import gspread 
+from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime, date
-from streamlit_autorefresh import st_autorefresh # type: ignore
+from streamlit_autorefresh import st_autorefresh
 
 st.set_page_config(page_title="Mood of the Queue", layout="wide")
 
